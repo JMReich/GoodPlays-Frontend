@@ -1,0 +1,15 @@
+{
+  "name": "goodplays-frontend",
+  "version": "1.0.0",
+  "description": "This is a hobby project and is the backend of the project. GoodPlays will hopefully be very similar to good reads but for video games. Make sure to look at the branches (if any exist).",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
