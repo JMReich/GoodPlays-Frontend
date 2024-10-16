@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/searchGames.js" defer></script>
     <title>GoodPlays</title>
 </head>
 <body>
@@ -10,8 +11,20 @@
     <div id="root">
         <h1>GoodPlays</h1>
         <h2>Find your next favorite games</h2>
-        <input type="text" placeholder="Search for a game" />
-        <button>Search</button>
+        <input type="text" placeholder="Search for a game" id="gameName" />
+        <select name="platform" id="platform">
+            <option value="1">Steam</option>
+            <option value="2">PlayStation</option>
+            <option value="3">Xbox</option>
+            <option value="4">Nintendo</option>
+        </select>
+        <button id="searchButton">Search</button>
+    </div>
+
+
+    
+    <div id="gameList">
+
     </div>
     
 </body>
