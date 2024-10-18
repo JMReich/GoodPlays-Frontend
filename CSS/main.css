@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: #081b29;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%; /* Don't know why this doesn't work at 100 */
+    padding: 20px 10%; 
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: nowrap;
+    z-index: 100;
+}
+
+
+.logo {
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    flex: 1;
+}
+
+.search {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+    
+
+
+.navbar a {
+    font-size: 18px;
+    color: #073ac9;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+    
+}
+
+.gameList {
+    /* Top padding */
+    padding-top: 100px;
+
+    /* Vertical stack */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

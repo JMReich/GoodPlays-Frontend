@@ -1,6 +1,9 @@
+// This file is the main entry point for the Electron application. 
+// Electron is not currently installed and the focus is on the front-end development
+// for a website. Desktop application development will be considered in the future.
+
+
 const {app, BrowserWindow} = require('electron');
-
-
 
 function createWindow () {
     // Create the browser window.
